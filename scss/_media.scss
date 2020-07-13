@@ -1,0 +1,185 @@
+/* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+  .products {   
+    width: 40%;
+  }
+
+  .checkout-content {
+    flex-direction: column;
+  }
+
+  .checkout-summary {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
+
+/* On screens that are 768px wide or less*/
+@media screen and (max-width: 768px) {
+  span.contact, span.checkout, span.facebook, span.instagram, span.follow {
+      display: none;
+  }
+
+  .search-box {   
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .incart-details {
+    width: 70%;
+      
+    img {
+      height: 80px;
+    }
+  }
+
+  .card-number {
+    flex-direction: column;
+  }
+
+  .card-info {
+    width: 100%;
+  }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+  .products {   
+    width: 80%;
+  }
+
+  .incart-details {
+    width: 68%;
+      
+    img {
+      height: 80px;
+    }
+  }
+}
+
+/* On screens that are 510px wide or less*/
+@media screen and (max-width: 510px) {
+  .breadcrumbs-row {
+    width: 100%;
+    padding: 5px;
+  
+    .list{
+      justify-content: center;
+
+      .step {
+        justify-content: center;
+      }
+
+      .title {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .incart-container {
+    .cart {
+      ul.cart-nav-tag {
+
+        li {
+            padding: 4px 20px;
+        }
+      }
+
+      .product-incart {
+        .incart-details {
+          img {
+            height: 50px;
+          }
+        }
+
+        .row-price-qty {
+          
+          .col-price-qty {
+              padding-right: 20px;
+          }
+
+          .price {
+              padding-left: 70px;
+          }
+        }
+      }
+    }
+  }
+
+  .btn-block.btn-checkout {
+    width: 65%;    
+  }
+}
+
+/* On screens that are 400px wide or less*/
+@media screen and (max-width: 400px) {
+  .products {   
+    width: 80%;
+  }
+
+  .details h5 {
+      font-size: 12px;
+      margin: 3px;
+
+    p {
+      font-size: 10px;
+      margin: 2px;
+    }
+  }
+
+  .breadcrumbs-row {
+    width: 100%;
+    padding: 5px;
+  
+    .list{
+      justify-content: center;
+
+      .step {
+        justify-content: center;
+      }
+
+      .title {
+        font-size: 7px;
+      }
+    }
+  }
+
+  .incart-container {
+    .cart {
+      ul.cart-nav-tag {
+        padding: 0 10px;
+
+        li {   
+          padding: 4px 10px;
+          font-size: 10px;
+        }
+      }
+
+      .product-incart { 
+        .incart-details {
+          flex-direction: column;
+          
+          img {
+            height: 50px;
+            width: 70px;
+          }
+        }
+
+        .row-price-qty {
+          
+          .col-price-qty {
+              padding-right: 20px;
+          }
+          
+          .price {
+              padding-left: 30px;
+          }
+        }
+      }
+    }
+  }
+  
+  .card-number {
+    width: 100%;
+  }
+}

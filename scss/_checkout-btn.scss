@@ -1,0 +1,70 @@
+input[type="radio"]:after {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    top: -5px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1.5px solid #e8491d;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked:after {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    top: -5px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5.5px solid #e8491d;
+}
+
+input[type="checkbox"]{
+    outline:2px solid red;
+    outline-offset: -2px;
+}
+
+input[type="checkbox"]:checked:after {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    top: -5px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid #e8491d;
+}
+
+input[type=text] {
+    outline: none;
+    
+    &:focus {
+        border: 0.5px solid #e8491d !important;
+    }  
+}
+
+.btn-checkout {
+    background-color: #e8491d !important;
+    border-color: #e8491d !important;
+    text-transform: uppercase;
+    color: #ffffff !important;
+}
